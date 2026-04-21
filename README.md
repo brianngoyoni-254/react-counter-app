@@ -1,16 +1,118 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#  React Counter App
 
-Currently, two official plugins are available:
+A simple beginner-friendly React project built to understand the fundamentals of React including components, state, and events.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Preview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+A basic counter application that allows users to:
+- Increase the count
+- Decrease the count
+- Reset the count
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  What I Learned
+
+This project helped me understand:
+
+- React components
+- JSX syntax
+- useState hook (state management)
+- Event handling (onClick)
+- Re-rendering in React
+- Basic CSS styling in React
+
+---
+
+##  Tech Stack
+
+- React (via Vite)
+- JavaScript (ES6+)
+- CSS3
+- Node.js (for development environment)
+
+---
+
+##  Project Structure
+
+```
+
+src/
+├── App.jsx        # Main component (counter logic)
+├── App.css        # Styling
+├── main.jsx       # Entry point
+├── index.css      # Global styles
+└── assets/        # Static files
+
+````
+
+---
+
+## How to Run This Project
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/brianngoyoni-254/react-counter-app.git
+````
+
+### 2. Navigate into the project
+
+```bash
+cd react-counter-app
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start development server
+
+```bash
+npm run dev
+```
+
+---
+
+## Features
+
+* Simple counter UI
+* Real-time updates using React state
+* Responsive button interactions
+* Clean and minimal design
+
+---
+
+## Purpose of This Project
+
+This project was built as part of my learning journey in React to understand core concepts before moving to advanced topics like:
+
+* Props
+* Component reuse
+* Routing
+* State management libraries
+
+---
+
+## 🙌 Author
+
+Built by **[Brian Ngoyoni]**
+
+---
+
+## 📌 Future Improvements
+
+* Add animations to buttons
+* Improve UI design
+* Add keyboard controls
+* Refactor buttons into reusable components
+
+---
+
+## Note
+
+This is a beginner project focused on learning React fundamentals, not a production-ready application.
